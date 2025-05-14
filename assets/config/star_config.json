@@ -1,0 +1,85 @@
+{
+    "janela": {
+        "tamanho": 20,
+        "particulas_tamanho": 250
+    },
+    "cores": {
+        "normal": {
+            "glow": "#3A8AD3",
+            "inner_glow": "#A0C5FF",
+            "core": "#FFFFFF",
+            "rays": ["#80B0FF", "#A0C5FF", "#FFFFFF"]
+        },
+        "clique": {
+            "glow": "#9A30E0",
+            "inner_glow": "#D280FF",
+            "core": "#FFFFFF",
+            "rays": ["#C050FF", "#D280FF", "#FFFFFF"]
+        },
+        "digitacao": {
+            "glow": "#FFD700",
+            "inner_glow": "#FFE55C",
+            "core": "#FFFFFF",
+            "rays": ["#FFD700", "#FFE55C", "#FFFFFF"]
+        }
+    },
+    "movimento": {
+        "distancia_base": 50,
+        "distancia_extra_max": 70,
+        "distancia_minima": 60,
+        "zona_critica": 40,
+        "aceleracao_start_distance": 300,
+        "desaceleracao_start_distance": 100,
+        "velocidade_base": 0.1,
+        "velocidade_max": 0.3,
+        "aceleracao_distante": 8.0,
+        "escape_speed": 2.2,
+        "max_velocity": 15,
+        "velocity_damping": 0.92
+    },
+    "particulas": {
+        "max_rastro": 120,
+        "vida_rastro": 5.0,
+        "max_particulas": 80,
+        "vida_brilho_estatico": 0.8,
+        "vida_brilho_rastro": 0.2,
+        "min_speed_for_trail": 40,
+        "max_trail_length": 200,
+        "max_trail_history": 200,
+        "intervalo_brilho": 0.05
+    },
+    "cores_rastro": {
+        "normal": [
+            "#80B0FF",
+            "#60A0FF",
+            "#4080FF",
+            "#A0D0FF",
+            "#C0E0FF",
+            "#FFFFFF"
+        ],
+        "clique": [
+            "#B060FF",
+            "#9A30E0",
+            "#8020C0",
+            "#D280FF",
+            "#E0A0FF",
+            "#FFFFFF"
+        ],
+        "digitacao": [
+            "#FFD700",
+            "#FFE55C",
+            "#FFC000",
+            "#FFE080",
+            "#FFF0A0",
+            "#FFFFFF"
+        ]
+    },
+    "efeito_clique": {
+        "duracao": 2.0,
+        "velocidade_transicao": 8.0
+    },
+    "efeito_digitacao": {
+        "tempo_inatividade": 5.0,
+        "velocidade_transicao": 4.0
+    }
+}

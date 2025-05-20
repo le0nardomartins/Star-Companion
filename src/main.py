@@ -1,5 +1,7 @@
 import tkinter as tk
-from win32api import GetCursorPos, GetKeyState
+# Corrigindo a importação de win32api para usar pywin32 corretamente
+from win32gui import GetCursorPos
+from win32api import GetKeyState
 import time
 import threading
 import math

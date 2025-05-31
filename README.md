@@ -1,4 +1,4 @@
-# StarCompanion
+# Star Companion
 
 Uma estrela animada que segue o cursor do mouse e reage a cliques e digitação.
 
@@ -7,11 +7,6 @@ Uma estrela animada que segue o cursor do mouse e reage a cliques e digitação.
 1. Execute `instalar.bat` como administrador
 2. Aguarde a conclusão da instalação
 3. O programa será iniciado automaticamente
-
-## Documentação
-
-Para mais informações, consulte os arquivos na pasta `docs`:
-- `HOW_USE.md` - Guia de uso em português
 
 ## Estrutura de Arquivos
 
@@ -86,31 +81,6 @@ O script irá:
 - Python 3.8 ou superior
 - Windows (usa win32api para rastreamento do mouse)
 - Tkinter (geralmente já vem com Python)
-
-## Como Usar
-
-1. Execute o programa:
-```bash
-python src/main.py
-```
-
-2. A estrela aparecerá e começará a seguir seu cursor
-3. Clique na estrela para ver o efeito de mudança de cor
-4. Mova o mouse rapidamente para ver a estrela acelerar
-
-## Personalização
-
-Para modificar o comportamento da estrela, edite o arquivo `star_config.json`. Você pode ajustar:
-
-- Cores da estrela e seus efeitos
-- Velocidade e distância de seguimento
-- Tamanho e quantidade de partículas
-- Duração dos efeitos visuais
-- E muito mais!
-
-## Desenvolvimento
-
-O projeto está estruturado da seguinte forma:
 
 - `src/main.py`: Código principal da aplicação
 - `star_config.json`: Arquivo de configuração
